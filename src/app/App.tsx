@@ -2,6 +2,12 @@ import { Box, Button, Container, Stack, Typography } from '@mui/material';
 import React from 'react';
 import '../css/App.css';
 import { RippleBadge } from './MaterialTheme/styled';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 function App() {
   return (
